@@ -1,0 +1,22 @@
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.{c,cc,cpp,h,hpp}]
+indent_style = space
+indent_size = 4
+tab_width = 4
+max_line_length = 100
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.{h,hpp}]
+indent_size = 4
+tab_width = 4
+max_line_length = 80
+
+[Makefile]
+indent_style = tab
+tab_width = 8
